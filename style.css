@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+h1 {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    font-weight:lighter;
+    font-weight: initial;
+    font-size: 40px;
+    margin-top: 20px;
+}
+nav {
+    width: 600px;
+    height: 80px;
+    background: #000;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .div {
+display: inline-block;
+
+height: 50px;
+background: rgb(226, 0, 0);
+margin: 50px;
+color: rgb(60, 255, 0);
+}
+ .div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.div {
+    background:
+      linear-gradient(-45deg, #000  40%, #fff 0 60%, #000  0) right/300% 100% no-repeat,
+      linear-gradient(-45deg, #0000 40%, #000 0 60%, #0000 0) right/300% 100% no-repeat;
+    -webkit-background-clip: text, padding-box;
+    background-clip: text, padding-box;
+    transition: 0.8s
+  }
+  .div:hover {
+    background-position: left;
+    color: rgb(0, 38, 255)
+  }
+
+  a {
+    text-decoration : none;
+    width: 100px;
+   
+  }
+  img {
+   
+width: 490px;
+height: 307px;
+margin: 50px;
+  }
+  .p1 {
+    text-shadow: 1px 1px 2px rgb(163, 143, 28), 0 0 1em rgb(213, 233, 36), 0 0 0.2em rgba(0, 132, 255, 0.836);
+    margin: 25px;
+  }
+  .p {
+    margin: 25px;
+    text-shadow: 4px 4px 10px rgb(137, 10, 255), 0px -1px 0px rgb(12, 240, 183);
+  }
+  h3{
+  
+    margin: 10px;
+  }
+  h5{
+    text-shadow: 0 0 8px rgb(255, 230, 0), -1px 1px 10px rgb(255, 115, 0);
+    margin: 15px;
+  }
+ header {
+  position: absolute;
+  width: 100%;
+ }
+ @media (min-width: 1000px) {
+  a {
+    width: 200px;
+  }
+  nav {
+    width: 100%;
+  }
+  img {
+    width: 510px;
+    height: 327px;
+    margin: 50px;
+  }
+ }
